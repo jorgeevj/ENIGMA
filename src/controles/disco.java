@@ -14,6 +14,7 @@ public class disco {
   private String discoExterno;
   private int posicionActual;
   private int posicionInicial;
+  private int orden;
 
     public String getDiscoInterno() {
         return discoInterno;
@@ -45,5 +46,13 @@ public class disco {
 
     public void setPosicionInicial(int posicionInicial) {
         this.posicionInicial = posicionInicial;
+    }
+
+    public int getOrden() {
+        return orden;
+    }
+
+    public void setOrden(int orden) {
+        this.orden = orden;
     }
 }
