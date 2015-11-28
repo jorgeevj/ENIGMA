@@ -40,17 +40,7 @@ public class Encriptar {
         vuelta=III.recibirLetraDiscoInterno(vuelta);
         vuelta=obtenerLetra(calculaPaseClavijero1(III.getPosicionActual(), obtenerPosicion(vuelta)));
         vuelta=c.recibirLetraVuelta(vuelta);
-        return vuelta;//        char ida,vuelta;
-//        ida=I.recibirLetraDiscoExterno(II.recibirLetraDiscoExterno(III.recibirLetraDiscoExterno(c.recibirLetraIda(letra))));
-//        vuelta=III.recibirLetraDiscoInterno(II.recibirLetraDiscoInterno(I.recibirLetraDiscoInterno(r.recibirLetraIda(ida))));
-//        return c.recibirLetraVuelta(vuelta);
-    }
-    private int calculaPaseDisco(int actual,int posicion){
-    if(actual>posicion){
-    return 26-actual+posicion;
-    }else{
-    return actual+posicion;
-    }
+        return vuelta;
     }
     
     private int calculaPaseClavijero(int actual,int posicion){
