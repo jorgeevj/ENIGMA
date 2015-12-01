@@ -5,7 +5,6 @@
  */
 package enigma;
 
-import vistas.Maquina;
 
 /**
  *
@@ -17,8 +16,7 @@ public class Enigma {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Maquina m = new Maquina();
-        m.setVisible(true);
+        
 // TODO code application logic here
     }
     
